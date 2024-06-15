@@ -7,12 +7,14 @@ bip = "3.0+"
 [build.c]
 std = "c11"
 hide-symbols = true
+include = ["include"]
 
 [build.cpp]
 std = "c++23"
 hide-symbols = true
+include = ["include"]
 
-[game]
-exe = "game"
+[AwdawdAI]
+exe = "AwdawdAI"
 lang = "cpp"
 libs = [ "nwge", "SDL2" ]
